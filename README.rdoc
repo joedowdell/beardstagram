@@ -1,28 +1,49 @@
-== README
+Beardstagram
+============
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Instagram photo sharing clone built with Ruby on Rail's. With a Beardy Shoreditch hipster theme. 
 
-Things you may want to cover:
+###Specification
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
++ Users can post images and tag them
++ Users can add a location which will then be displayed on a map
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+###Technologies used
+
++ Rails
++ Ruby
++ RSPEC
++ Heroku
++ CSS
++ HTML
++ Bootstrap
++ Devise
++ Google Maps API
++ Factory Girl
++ Warden
++ Capybara
++ Amazon Web Services
+
+###How to set it up
+
+```sh
+git clone https://github.com/joedowdell/beardstagram.git
+cd beardstagram
+bundle install
+```
+
+###How to run it
+
+```sh
+cd beardstagram
+rails s
+```
+Open the browser at localhost:3000 to view the app
+
+###How to test it
+
+```sh
+cd beardstagram
+rspec
+``` 
